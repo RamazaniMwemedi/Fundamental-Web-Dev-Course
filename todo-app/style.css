@@ -32,6 +32,44 @@ header > p {
   height: 50px;
   width: 13px;
   background-color: transparent;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 7px;
+}
+
+.inner-slide {
+  width: 100%;
+  height: 80%;
+  background-color: white;
+  border-radius: 7px;
+  transform: translateY(25%);
+}
+.tasks {
+  display: flex;
+  gap: 10px;
+}
+
+.project {
+  background-color: dodgerblue;
+  padding: 10px;
+  padding-top: 1px;
+  border-radius: 20px;
+}
+.project > h2,
+span {
+  color: white;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.action-buttons > button {
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid whitesmoke;
+  color: white;
+  cursor: pointer;
+  background-color: rgba(243, 234, 234, 0.5);
+  backdrop-filter: blur(10px);
 }
